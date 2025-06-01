@@ -110,9 +110,7 @@ export default function Footer() {
             <p className="text-sm text-blue-200">
               © {currentYear} Ayush Bajagain. All rights reserved.
             </p>
-            <p className="text-xs text-blue-300/70 mt-2">
-              Built with Next.js, React, and Tailwind CSS
-            </p>
+          
           </div>
         </div>
       </div>
