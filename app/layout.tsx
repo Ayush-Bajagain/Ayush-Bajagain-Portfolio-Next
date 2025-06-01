@@ -9,53 +9,32 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ayush Bajagian | Full Stack Developer & Software Engineer",
-  description: "Professional portfolio of Ayush Bajagian - Full Stack Developer, Software Engineer, and Web Developer based in Nepal. Specializing in Java, React, Next.js, and modern web technologies.",
-  keywords: [
-    "Ayush Bajagian",
-    "Full Stack Developer",
-    "Software Engineer",
-    "Web Developer",
-    "Java Developer",
-    "Nepal Developer",
-    "Freelance Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Software Development Nepal",
-    "Web Development Nepal",
-    "Full Stack Development",
-    "Java Programming",
-    "Web Applications",
-    "Software Solutions",
-    "Freelance Software Developer",
-    "Professional Developer Nepal",
-    "Custom Software Development",
-    "Enterprise Software Development",
-    "Modern Web Technologies"
-  ].join(", "),
-  authors: [{ name: "Ayush Bajagian" }],
-  creator: "Ayush Bajagian",
-  publisher: "Ayush Bajagian",
+  title: "Ayush Bajagain - Software Developer",
+  description: "Portfolio of Ayush Bajagain, a software developer specializing in Java, web apps, and database systems.",
+  keywords: "Ayush Bajagain, Software Developer, Java Developer, BCA Student, ayushbajagain.com.np",
+  authors: [{ name: "Ayush Bajagain" }],
+  creator: "Ayush Bajagain",
+  publisher: "Ayush Bajagain",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://ayushbajagian.com"),
+  metadataBase: new URL("https://ayushbajagain.com.np"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ayush Bajagian | Full Stack Developer & Software Engineer",
-    description: "Professional portfolio of Ayush Bajagian - Full Stack Developer, Software Engineer, and Web Developer based in Nepal. Specializing in Java, React, Next.js, and modern web technologies.",
-    url: "https://ayushbajagian.com",
-    siteName: "Ayush Bajagian Portfolio",
+    title: "Ayush Bajagain - Software Developer",
+    description: "Check out my portfolio and projects.",
+    url: "https://ayushbajagain.com.np",
+    siteName: "Ayush Bajagain Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ayush Bajagian - Full Stack Developer",
+        alt: "Ayush Bajagain - Software Developer",
       },
     ],
     locale: "en_US",
@@ -63,10 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ayush Bajagian | Full Stack Developer & Software Engineer",
-    description: "Professional portfolio of Ayush Bajagian - Full Stack Developer, Software Engineer, and Web Developer based in Nepal.",
+    title: "Ayush Bajagain - Software Developer",
+    description: "Check out my portfolio and projects.",
     images: ["/og-image.jpg"],
-    creator: "@ayushbajagian",
   },
   robots: {
     index: true,
@@ -101,18 +79,18 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <meta name="revisit-after" content="7 days" />
         <meta name="language" content="English" />
-        <meta name="author" content="Ayush Bajagian" />
+        <meta name="author" content="Ayush Bajagain" />
         <meta name="geo.region" content="NP" />
         <meta name="geo.placename" content="Nepal" />
         <meta name="geo.position" content="27.7172;85.3240" />
         <meta name="ICBM" content="27.7172, 85.3240" />
-        <link rel="canonical" href="https://ayushbajagian.com" />
+        <link rel="canonical" href="https://ayushbajagain.com.np" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Ayush Bajagian",
-            "url": "https://ayushbajagian.com",
+            "name": "Ayush Bajagain",
+            "url": "https://ayushbajagain.com.np",
             "image": "/ayush.png",
             "sameAs": [
               "https://github.com/Ayush-Bajagain",

@@ -104,16 +104,19 @@ export default function Hero() {
           {/* Content */}
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-6">
+              {/* SEO-friendly H1 */}
+              <h1 className="sr-only">Ayush Bajagain - Software Developer</h1>
+              
               {/* Animated Name */}
               <div className="relative">
-                <h1 className="text-4xl sm:text-5xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-300 leading-tight animate-text-slide">
+                <h2 className="text-4xl sm:text-5xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-300 leading-tight animate-text-slide">
                   AYUSH
-                </h1>
+                </h2>
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-300 transform origin-left animate-expand"></div>
               </div>
 
               <div className="relative">
-                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4">BAJAGIAN</h2>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4">BAJAGAIN</h3>
                 <div className="h-16 flex items-center justify-center lg:justify-start">
                   <div className="bg-black/30 backdrop-blur-sm border border-blue-400/30 rounded-2xl px-4 sm:px-6 py-3">
                     <span className="text-lg sm:text-xl lg:text-2xl font-mono text-cyan-400">
