@@ -28,14 +28,14 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "ayushbajagain@gmail.com",
-      link: "mailto:ayushbajagain@gmail.com",
+      content: "ayushbajagain0007@gmail.com",
+      link: "mailto:ayushbajagain0007@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+977 984-1234567",
-      link: "tel:+9779841234567",
+      content: "+977 9749334997",
+      link: "tel:+9779749334997",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -55,11 +55,6 @@ export default function Contact() {
       icon: <Linkedin className="w-6 h-6" />,
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/ayush-bajagain/",
-    },
-    {
-      icon: <Twitter className="w-6 h-6" />,
-      name: "Twitter",
-      link: "https://twitter.com/ayush_bajagain",
     },
   ]
 
