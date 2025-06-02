@@ -96,7 +96,7 @@ export default function Projects() {
       title: "Healthcare Portal",
       description:
         "Under-development healthcare platform to manage appointments and health records using Java backend and blockchain.",
-      techStack: ["Spring Boot", "PostgreSQL", "React.js", "Blockchain"],
+      techStack: ["Spring Boot", "PostgreSQL", "React.js"],
       category: "Healthcare",
       features: ["Appointment Booking", "Patient Records", "Doctor Portal"],
       metrics: { consultations: "-", satisfaction: "-", response: "-" },
